@@ -150,7 +150,7 @@
       <div class="modal-body">
         <div id="msg"></div>
         <form id="formdata">
-             
+                {{ csrf_field() }}
               <div class="form-group row">
                 <label for="inputFirstname" class="col-sm-2 col-form-label">Firstname</label>
                 <div class="col-sm-10">
